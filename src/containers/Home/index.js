@@ -47,7 +47,11 @@ class Home extends Component {
                         title="Save"
                         onPress={this.updateName}
                     />
+
                 </View>
+                <Button title="See More Data"
+                onPress={()=>this.props.navigation.navigate("UserDataScreen")}
+                />
             </SafeAreaView>
         );
     }

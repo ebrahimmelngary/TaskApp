@@ -11,9 +11,9 @@ import {
   View,
   StatusBar,
 } from 'react-native';
-import Splash from './src/containers/Splash';
-import Home from './src/containers/Home';
+
 import AppNavigation from './src/navigation';
+
 const App = () => {
 
   return (
